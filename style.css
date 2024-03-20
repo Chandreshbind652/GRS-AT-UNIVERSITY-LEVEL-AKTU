@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;600&disply=swap");
+*{
+    margin:0px;
+    padding:0px;
+    border:none;
+    outline:none;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+  }
+  body{
+      display: flex;
+  }
+  .sidebar
+  {
+      position:sticky;
+      top:0px;
+      left:0px;
+      bottom:0px;
+      width: 285px;
+      height: 100vh;
+      padding: 0 1.7rem;
+      color:black;
+      overflow:hidden;
+      transition:all 0.5s linear;
+      background-color:rgb(160, 48, 48);
+  }
+  /* .sidebar:hover
+  {
+    width:240px;
+    transition:0.5s;
+  } */
+  .logo
+  {
+      margin-top:-20px;
+      height:80px;
+      padding:0px;
+      margin-left:-30px
+  }
+  .main
+  {
+      height:88%;
+      position:relative;
+      list-style:none;
+      padding:10px;
+  }
+  .main li
+  {
+      padding:8px;
+      margin:8px 0px;
+      border-radius: 8px;
+      transition:all 0.5s ease-in-out;
+  
+  }
+  .main li:hover
+  {
+      background:khaki;
+      color:greenyellow;
+     
+  }
+  .main a
+  {
+      color:black;
+      text-decoration:none;
+      align-items:center;
+  }
+  .main a span
+  {
+      overflow:hidden;
+  }
+  .main a i
+  {
+      font-size:40;
+  }
+  /* main starter close */
+  .main span:hover{
+      color:red;
+  }
+  /* main body session */
+  .main--content
+  {
+position:relative;
+background-color:white;
+width:100%;
+padding:6px;
+  }
+  .header-wrapper img
+  {
+   width:50px;
+   height:50px;
+   cursor:pointer;
+   border-radius:50%;
+  }
+  .header-wrapper
+  {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background:palegreen;
+    border-radius:10px;
+    padding:10px 2rem;
+    margin-bottom:1rem;
+  }
+  .header-title
+  {
+    color:red;
+  }
+  .user--info
+  {
+    display: flex;
+    align-items:center;
+    gap:1;
+  }
+  /* .search--box
+  {
+    background:white;
+    color:darkseagreen;
+    display: flex;
+    align-items:center;
+    gap:10px;
+    padding:4px 12px;
+  }
+  .search--box input
+  {
+    background:transparent;
+    padding:2px;
+    border-radius:30px;
+  }
+  .search--box i
+  {
+    font-size: 1.2rem;
+    cursor:pointer;
+    transition:all 0.5s ease-out;
+  }
+  .search--box i:hover
+  {
+    transform:scale(1.5);
+  } */
+
+
+  /* card container */
+  .payment-card
+  {
+    background-color: palegreen;
+    border:1px solid;
+    width:700px;
+    height:130px;
+  }
+  .admin-view
+  {
+    background-color:honeydew;
+    width:500px;
+    height:300px;
+  }
+  table
+  {
+    width:100%;
+  }
+  .session1
+  { 
+    text-align:center;
+    /* margin-left:50px; */
+  }
+  input[type="text"]:hover
+  {
+    background-color:khaki;
+    color:black;
+  }
+  input[type="submit"]:hover
+  {
+    background-color:khaki;
+    color:black;
+  }
